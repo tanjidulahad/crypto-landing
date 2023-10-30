@@ -9,7 +9,7 @@ import { fadeIn } from '../../utils/motion';
 
 export default function GetStarted() {
   return (
-    <section id='get-started' className="px-24 pt-28 overflow-hidden">
+    <section id='get-started' className="px-2 md:px-24 pt-20 md:pt-28 overflow-hidden">
       <div className='rounded-3xl bg-gradient-to-b from-[#FFFFFF] to-[#F4F9FF] py-20'>
         <div className="container mx-auto text-center">
           <h2 className="font-bold text-4xl mb-6 leading-normal">

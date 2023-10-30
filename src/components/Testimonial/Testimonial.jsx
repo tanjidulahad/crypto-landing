@@ -27,7 +27,7 @@ const Testimonial = () => {
       autoplay: true,
     };
     return (
-        <section id='testimonials' className="px-24 pt-40 pb-32 overflow-hidden">
+        <section id='testimonials' className="px-2 md:px-24 pt-40 pb-32 overflow-hidden">
             <div className='text-white'>
                 <h2 className="font-bold text-4xl mb-6 leading-normal text-center">
                     What people say about us?
@@ -81,13 +81,13 @@ const Testimonial = () => {
 
                 {/* Custom Buttons */}
                 <button
-                    className="absolute top-[50%] left-[10px] z-10 text-2xl text-gray-200"
+                    className="absolute top-[50%] left-[10px] z-9 text-2xl text-gray-200 hidden md:block"
                     onClick={() => sliderRef?.current?.slickPrev()}
                 >
                     <MdOutlineArrowBackIos />
                 </button>
                 <button
-                    className="absolute top-[50%] right-[10px] z-10 text-2xl text-gray-200"
+                    className="absolute top-[50%] right-[10px] z-9 text-2xl text-gray-200 hidden md:block"
                     onClick={() => sliderRef?.current?.slickNext()}
                 >
                     <MdOutlineArrowForwardIos />

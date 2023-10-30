@@ -67,7 +67,7 @@ const recentlyCoins = [{
 
 const Trendings = () => {
     return (
-        <section id='trendings' className="px-10 pt-48">
+        <section id='trendings' className="px-2 md:px-10 pt-20 md:pt-48">
             <div className="mx-auto rounded-3xl lg:mx-8 bg-white py-8 px-4 shadow-lg">
                 <div className="grid md:grid-cols-2 xl:grid-cols-3">
                     <div className="px-4 mb-6 lg:mb-0">

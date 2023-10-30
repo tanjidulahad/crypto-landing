@@ -17,7 +17,7 @@ export default function BuyAndTrade() {
     };
 
     return (
-        <section id='exchange' className="container mx-auto px-14 pt-28 pb-48 overflow-hidden">
+        <section id='exchange' className="container mx-auto px-2 md:px-14 pt-20 md:pt-28 pb-20 md:pb-48 overflow-hidden">
 
             <div className="grid md:grid-cols-2 gap-10">
                 <div className="flex items-center">
@@ -35,7 +35,7 @@ export default function BuyAndTrade() {
                             <motion.div
                                 initial="hidden"
                                 whileInView="show"
-                                variants={fadeIn('up', 'tween', 0.5, 0.5)}
+                                variants={fadeIn('up', 'tween', 0.4, 0.5)}
                                 className="flex justify-between gap-4 md:gap-6 mb-6">
                                 <div className="border border-primary rounded-2xl py-3 md:py-4 px-4 md:px-6 flex items-center w-[75%]">
                                     <div className="border-r border-primary pr-4 md:pr-6">
@@ -52,7 +52,7 @@ export default function BuyAndTrade() {
                             <motion.div
                             initial="hidden"
                             whileInView="show"
-                            variants={fadeIn('up', 'tween', 1, 0.5)}
+                            variants={fadeIn('up', 'tween', 0.6, 0.5)}
                             className="flex justify-between gap-4 md:gap-6 mb-6">
                                 <div className="border border-primary rounded-2xl py-3 md:py-4 px-4 md:px-6 flex items-center text-white w-[75%]">
                                     <div className="border-r border-primary pr-4 md:pr-6">
@@ -69,7 +69,7 @@ export default function BuyAndTrade() {
                         <motion.div
                         initial="hidden"
                         whileInView="show"
-                        variants={fadeIn('up', 'tween', 1.5, 0.5)}
+                        variants={fadeIn('up', 'tween', 0.8, 0.5)}
                         >
 
                         <PrimaryButton className="w-full">

@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function Tools() {
     return (
-        <section id='tools' className="px-24 pt-20 overflow-hidden">
+        <section id='tools' className="px-2 md:px-24 pt-2 md:pt-20 overflow-hidden">
             <div className='rounded-3xl bg-gradient-to-b py-20 text-white'>
                 <div className="container mx-auto">
                     <div className="grid md:grid-cols-2 gap-6">

@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from "../../utils/motion"
 const Hero = () => {
     return (
-        <div id='home' className='px-10 overflow-hidden'>
+        <div id='home' className='px-2 md:px-10 overflow-hidden'>
 
             <div className='gradient-01 h-10'>
 
@@ -43,7 +43,7 @@ const Hero = () => {
                                 <motion.div
                                     initial="hidden"
                                     whileInView="show"
-                                    variants={fadeIn('up', 'tween', 0.5, 0.5)}
+                                    variants={fadeIn('down', 'tween', 0.4, 0.5)}
                                 >
                                     <PrimaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
                                         Get Started
@@ -52,11 +52,11 @@ const Hero = () => {
                                 <motion.div
                                     initial="hidden"
                                     whileInView="show"
-                                    variants={fadeIn('up', 'tween', 1, 0.5)}
+                                    variants={fadeIn('down', 'tween', 0.6, 0.5)}
                                 >
-                                <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
-                                    Download App
-                                </SecondaryButton>
+                                    <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
+                                        Download App
+                                    </SecondaryButton>
                                 </motion.div>
                             </div>
                         </div>

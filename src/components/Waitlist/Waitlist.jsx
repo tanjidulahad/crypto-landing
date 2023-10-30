@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function Waitlist() {
     return (
-        <section id='waitlist' className="container mx-auto pt-48 overflow-hidden">
+        <section id='waitlist' className="container mx-auto px-2 md:px-0 pt-20 md:pt-48 pb-2 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-6">
                 <div className="mb-12 px-4 md:px-4">
                     <motion.img
@@ -47,7 +47,7 @@ export default function Waitlist() {
                         <motion.div
                         initial="hidden"
                         whileInView="show"
-                        variants={fadeIn('up', 'tween', 0.5, 0.5)}
+                        variants={fadeIn('down', 'tween', 0.4, 0.5)}
                         >
 
                             <SecondaryButton>

@@ -6,22 +6,22 @@ export const testimonials = [
   {
     img: Dikshyanta,
     name: "Dikshyanta Aryal",
-    profession: "Dancer",
+    profession: "Financial Enthusiast",
     testimonial:
-      "Kalachhetra has been instrumental in bridging the gap between artists and consumers. Through this platform, I have been able to showcase my dance performances, connect with event organizers, and even secure performance opportunities. It has provided a dynamic space for artists to grow and create meaningful connections.",
+      "Embracing crypto transformed my financial approach. Its decentralized nature and potential for growth have reshaped my investment strategy. The innovation and global accessibility of cryptocurrencies have empowered my financial journey remarkably.",
   },
   {
     img: Sulav,
     name: "Sulav Gaire",
-    profession: "Painter",
+    profession: "Crypto Analyst",
     testimonial:
-      "Kalachhetra has revolutionized the way I showcase my artwork. The platform has given me the opportunity to reach a wider audience and connect with art enthusiasts from around the world. I am grateful for the seamless experience and the exposure it has provided for my artistic journey.",
+      "Venturing into the realm of crypto was a game-changer for me. The versatility and decentralization of cryptocurrencies have opened doors to a new era of financial possibilities, offering an exciting and dynamic investment landscape.",
   },
   {
     img: Aayush,
     name: "Aayush Shrestha",
-    profession: "Musician",
+    profession: "Investment Advisor",
     testimonial:
-      "As a musician, Kalachhetra has been a game-changer for me. It has allowed me to showcase my music, collaborate with other artists, and connect with music lovers who appreciate my work. The platform's user-friendly interface and the supportive community make it an ideal place for artists like me to thrive.",
+      "Exploring the world of crypto has been an exhilarating journey. The disruptive technology behind cryptocurrencies has fundamentally changed how I perceive and engage with finance, offering a promising avenue for innovation and financial freedom.",
   },
 ];

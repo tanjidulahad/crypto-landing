@@ -49,7 +49,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`fixed w-full transition-all duration-700 z-10 py-8 px-10 ${backgroundwhite ? 'bg-[#202F3B] shadow-lg !py-3' : ""}`}>
+        <nav className={`fixed w-full transition-all duration-700 z-10 py-8 px-2 md:px-10 ${backgroundwhite ? 'bg-[#202F3B] shadow-lg !py-3' : ""}`}>
             <div className="px-4 container mx-auto top-0 flex justify-between items-center">
                 <div className="flex items-center">
                     <a href="#home"><img src={logo} className="mr-6" alt="Neva" /></a>
