@@ -20,3 +20,7 @@ body {
   );
   filter: blur(125px);
 }
+
+.slick-dots li button:before {
+  color: white !important;
+}
