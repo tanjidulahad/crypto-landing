@@ -20,7 +20,7 @@ const Menus = () => {
                 <a href="#get-started" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Steps</a>
             </div>
             <div className="w-full">
-                <a href="/" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Portofolios</a>
+                <a href="#testimonials" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Testimonials</a>
             </div>
 
         </>

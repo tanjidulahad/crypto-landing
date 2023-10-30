@@ -1,5 +1,6 @@
 import './App.css'
 import BuyAndTrade from './components/BuyAndTrade/BuyAndTrade'
+import Footer from './components/Footer/Footer'
 import GetStarted from './components/GetStarted/GetStarted'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
@@ -22,6 +23,7 @@ function App() {
     <Tools/>
     <GetStarted/>
     <Testimonial/>
+    <Footer/>
     </>
   )
 }

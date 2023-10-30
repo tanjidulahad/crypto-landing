@@ -27,14 +27,14 @@ const Testimonial = () => {
       autoplay: true,
     };
     return (
-        <section className="px-24 pt-40 pb-28 overflow-hidden">
+        <section id='testimonials' className="px-24 pt-40 pb-32 overflow-hidden">
             <div className='text-white'>
                 <h2 className="font-bold text-4xl mb-6 leading-normal text-center">
                     What people say about us?
                 </h2>
             </div>
 
-            <div>
+            <div className='relative'>
                 <Slider {...settings} ref={sliderRef}>
                     {testimonials.map((single, index) => {
                         return (
@@ -81,13 +81,13 @@ const Testimonial = () => {
 
                 {/* Custom Buttons */}
                 <button
-                    className="absolute top-[50%] left-[10px] z-10 text-2xl text-gray-100"
+                    className="absolute top-[50%] left-[10px] z-10 text-2xl text-gray-200"
                     onClick={() => sliderRef?.current?.slickPrev()}
                 >
                     <MdOutlineArrowBackIos />
                 </button>
                 <button
-                    className="absolute top-[50%] right-[10px] z-10 text-2xl text-gray-600"
+                    className="absolute top-[50%] right-[10px] z-10 text-2xl text-gray-200"
                     onClick={() => sliderRef?.current?.slickNext()}
                 >
                     <MdOutlineArrowForwardIos />
