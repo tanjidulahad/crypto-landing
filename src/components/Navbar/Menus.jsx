@@ -5,19 +5,19 @@ const Menus = () => {
 
         <>
             <div className="w-full">
-                <a href="/" className='text-white hover:text-primary py-2 block'>Cryptocurrency</a>
+                <a href="#trendings" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Trendings</a>
             </div>
             <div className="w-full">
-                <a href="/" className='text-white hover:text-primary py-2 block'>Exchanges</a>
+                <a href="#exchange" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Exchanges</a>
             </div>
             <div className="w-full">
-                <a href="/" className='text-white hover:text-primary py-2 block'>Watchlist</a>
+                <a href="/" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Watchlist</a>
             </div>
             <div className="w-full">
-                <a href="/" className='text-white hover:text-primary py-2 block'>NFT</a>
+                <a href="/" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>NFT</a>
             </div>
             <div className="w-full">
-                <a href="/" className='text-white hover:text-primary py-2 block'>Portofolios</a>
+                <a href="/" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Portofolios</a>
             </div>
 
         </>

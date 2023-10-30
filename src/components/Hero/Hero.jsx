@@ -9,11 +9,11 @@ import SecondaryButton from '../buttons/SecondaryButton/SecondaryButton';
 
 const Hero = () => {
     return (
-        <div className='px-10'>
-        <div className='gradient-01 h-10'>
-            
-        </div>
-        <section className='relative bg-primary pt-[100px] bg-opacity-5 pb-24'>
+        <div id='home' className='px-10'>
+            <div className='gradient-01 h-10'>
+
+            </div>
+            <section className='relative bg-primary pt-[100px] bg-opacity-5'>
 
                 <div className="container px-4 mx-auto grid md:grid-cols-2">
                     <div className='flex items-center'>
@@ -34,7 +34,7 @@ const Hero = () => {
                                     Get Started
                                 </PrimaryButton>
                                 <SecondaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
-                                Download App
+                                    Download App
                                 </SecondaryButton>
                             </div>
                         </div>

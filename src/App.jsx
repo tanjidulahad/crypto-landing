@@ -1,6 +1,8 @@
 import './App.css'
+import BuyAndTrade from './components/BuyAndTrade/BuyAndTrade'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
+import Trendings from './components/Trendings/Trendings'
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
     <>
     <Navbar/>
     <Hero/>
+    <Trendings/>
+    <BuyAndTrade/>
     </>
   )
 }
