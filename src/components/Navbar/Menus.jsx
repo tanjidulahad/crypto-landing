@@ -11,7 +11,10 @@ const Menus = () => {
                 <a href="#exchange" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Exchanges</a>
             </div>
             <div className="w-full">
-                <a href="/" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Watchlist</a>
+                <a href="#waitlist" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Waitlist</a>
+            </div>
+            <div className="w-full">
+                <a href="#tools" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>Tools</a>
             </div>
             <div className="w-full">
                 <a href="/" className='text-white hover:text-primary py-2 block hover:text-[#136BEF]'>NFT</a>
