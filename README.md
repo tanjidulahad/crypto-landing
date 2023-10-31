@@ -5,7 +5,7 @@ This is a crypto currency app landing page built with React.js, Vite and styled 
 Inspired from this design by [Irvan Moses](https://dribbble.com/shots/17267071-NEFA-Cryptocurrency-Exchange-Website)
 
 ## See the page live here
-Live Link
+[Live Link](https://crypto-network.netlify.app/)
 
 ## Technology used
 

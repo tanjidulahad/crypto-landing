@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import buyIcon from '../../images/buy.png';
 import PrimaryButton from '../buttons/PrimaryButton/PrimaryButton';
 import usd from "/cryptocurrencies/usd.svg"
@@ -8,12 +8,16 @@ import { fadeIn } from '../../utils/motion';
 
 export default function BuyAndTrade() {
 
+    const [usdValue,setUsdValue]=useState("5000")
+    const [btcValue,setBtcValue]=useState("0.145")
+
     const formHandler = (e) => {
         e.preventDefault();
     };
 
     const inputChangeHandler = (e) => {
-        console.log(e.target.value);
+        setUsdValue(e.target.value)
+        setBtcValue(0.000029*e.target.value)
     };
 
     return (
@@ -41,7 +45,7 @@ export default function BuyAndTrade() {
                                     <div className="border-r border-primary pr-4 md:pr-6">
                                         <small className="text-primary text-white">Amount</small>
                                     </div>
-                                    <input type="text" value="5,000" onChange={inputChangeHandler} className='text-right text-white outline-none w-full bg-[#1A232E]' />
+                                    <input type="text" value={usdValue} onChange={inputChangeHandler} className='text-right text-white outline-none w-full bg-[#1A232E]' />
                                 </div>
                                 <div className='border border-primary rounded-2xl py-3 md:py-4 px-4 md:px-6 flex items-center w-[25%] justify-center text-white'>
                                     <span className='mr-2'><img className='w-5 h-5' src={usd} alt="" /></span>
@@ -58,7 +62,7 @@ export default function BuyAndTrade() {
                                     <div className="border-r border-primary pr-4 md:pr-6">
                                         <small className="text-primary">Amount</small>
                                     </div>
-                                    <input type="text" value="0.10901" onChange={inputChangeHandler} className='text-right outline-none w-full bg-[#1A232E]' />
+                                    <input type="text" value={btcValue} disabled className='text-right outline-none w-full bg-[#1A232E]' />
                                 </div>
                                 <div className='border border-primary rounded-2xl py-3 md:py-4 px-4 md:px-6 flex items-center w-[25%] justify-center text-white'>
                                     <span className='mr-2'><img className='w-5 h-5' src={btc} alt="" /></span>
