@@ -27,7 +27,7 @@ const Testimonial = () => {
       autoplay: true,
     };
     return (
-        <section id='testimonials' className="px-2 md:px-24 pt-40 pb-32 overflow-hidden">
+        <section id='testimonials' className="px-2 lg:px-24 pt-40 pb-32 overflow-hidden">
             <div className='text-white'>
                 <h2 className="font-bold text-4xl mb-6 leading-normal text-center">
                     What people say about us?

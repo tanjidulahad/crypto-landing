@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../utils/motion';
 export default function PartnerSection() {
   return (
-    <section className="px-2 md:px-12">
+    <section className="px-2 lg:px-12">
       <div className='rounded-3xl bg-gradient-to-b from-[white] to-[#C7D5FF] py-20'>
         <div className="container mx-auto">
           <div className="text-center mb-4">

@@ -17,7 +17,7 @@ export default function BuyAndTrade() {
     };
 
     return (
-        <section id='exchange' className="container mx-auto px-2 md:px-14 pt-20 md:pt-28 pb-20 md:pb-48 overflow-hidden">
+        <section id='exchange' className="container mx-auto px-2 lg:px-14 pt-20 md:pt-28 pb-20 md:pb-48 overflow-hidden">
 
             <div className="grid md:grid-cols-2 gap-10">
                 <div className="flex items-center">

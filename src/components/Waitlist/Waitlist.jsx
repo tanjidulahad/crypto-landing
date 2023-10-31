@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 export default function Waitlist() {
     return (
         <section id='waitlist' className="container mx-auto px-2 md:px-0 pt-20 md:pt-48 pb-2 overflow-hidden">
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-2 lg:gap-6">
                 <div className="mb-12 px-4 md:px-4">
                     <motion.img
                         initial="hidden"

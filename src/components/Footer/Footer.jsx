@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
+import {ImLinkedin2,ImTwitter,ImWhatsapp,ImFacebook, ImInstagram} from "react-icons/im"
 
 import logo from '../../images/logo.svg';
 import PrimaryButton from '../buttons/PrimaryButton/PrimaryButton';
@@ -82,6 +83,31 @@ export default function Footer() {
                                     <BsArrowRight color='white' />
                                 </PrimaryButton>
                             </div>
+                        </div>
+                        <div className='flex gap-4 mt-8'>
+                            <div className='bg-white p-2 rounded-full cursor-pointer hover:rotate-[360deg] duration-300'>
+
+                                <ImLinkedin2 color='#202F3B' size={12} />
+                            </div>
+                            <div className='bg-white p-2 rounded-full cursor-pointer hover:rotate-[360deg] duration-300'>
+
+                                <ImFacebook color='#202F3B' size={12} />
+                            </div>
+                            <div className='bg-white p-2 rounded-full cursor-pointer hover:rotate-[360deg] duration-300'>
+
+                                <ImTwitter color='#202F3B' size={12} />
+                            </div>
+                            <div className='bg-white p-2 rounded-full cursor-pointer hover:rotate-[360deg] duration-300'>
+
+                                <ImWhatsapp color='#202F3B' size={12} />
+                            </div>
+                            <div className='bg-white p-2 rounded-full cursor-pointer hover:rotate-[360deg] duration-300'>
+
+                                <ImInstagram color='#202F3B' size={12} />
+                            </div>
+
+
+
                         </div>
                     </div>
                 </div>
